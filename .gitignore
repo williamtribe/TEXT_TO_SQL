@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Logs
+*.log
+sql_query.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google credentials (보안상 중요)
+*.json
+!package.json
+!tsconfig.json
+
+# Feedback logs
+feedback_log.jsonl
+
+# Recovery codes
+*_recovery_codes.txt
+ngrok_recovery_codes.txt
+
+# RAG index (큰 파일일 수 있음)
+rag_index.json
+
+# 기타
+*.db
+*.sqlite
+
